@@ -8,12 +8,12 @@
 body{
     display: block;
     margin: 0px 10px;
-    background-image:url(../images/bg.jpg);
+    background-image:url(../images/bg-dark.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
-.card-glass {
+.glass {
     margin: auto;
     padding: 20px;
     border: 1px solid white;
@@ -24,4 +24,10 @@ body{
 }
 * {
     color: white;
+}
+.card-glass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
