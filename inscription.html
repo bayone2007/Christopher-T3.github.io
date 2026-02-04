@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription - Faculté des Lettres et Sciences Humaines</title>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="inscription.css">
+</head>
+<body>
+  
+<nav class="navbar navbar-expand-lg navbar-dark glass-nav">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">ISP</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html">Faculté</a></li>
+        <li class="nav-item"><a class="nav-link active" href="#">Inscription</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="form-section d-flex align-items-center justify-content-center">
+  <div class="glass-form p-5">
+    <h2 class="text-center mb-4">Formulaire d'inscription</h2>
+    <form action="">
+      <div class="mb-3">
+        <label for="nom" class="form-label">Nom</label>
+        <input type="text" class="form-control" id="nom" placeholder="Votre nom">
+      </div>
+
+      <div class="mb-3">
+        <label for="prenom" class="form-label">Prénom</label>
+        <input type="text" class="form-control" id="prenom" placeholder="Votre prénom">
+      </div>
+
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="email@exemple.com">
+      </div>
+
+      <div class="mb-3">
+        <label for="telephone" class="form-label">Téléphone</label>
+        <input type="tel" class="form-control" id="telephone" placeholder="+243...">
+      </div>
+
+      <div class="mb-3">
+        <label for="faculte" class="form-label">Faculté</label>
+        <input type="text" class="form-control" id="faculte" value="Lettres et Sciences Humaines" readonly>
+      </div>
+
+      <div class="mb-3">
+        <label for="departement" class="form-label">Département</label>
+        <select class="form-select" id="departement">
+          <option selected>Choisir...</option>
+          <option>Orientation scolaire et professionnelle</option>
+          <option>Gestion et administration des institutions scolaires et de la formation</option>
+          <option>Histoire, sciences sociales et gestion du patrimoine</option>
+          <option>Français et langues africaines</option>
+          <option>Anglais et cultures africaines</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label for="niveau" class="form-label">Niveau</label>
+        <select class="form-select" id="Niveau">
+          <option selected>Choisir...</option>
+          <option>L1</option>
+          <option>L2</option>
+          <option>L3</option>
+          <option>M1</option>
+          <option>M2</option>
+        </select>
+      </div>
+
+      <div class="text-center">
+        <button type="submit" class="btn btn-primary btn-lg">Soumettre l'inscription</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
